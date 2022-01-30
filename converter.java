@@ -1,6 +1,6 @@
 //Name: Dulith Thaveesha Wijekoon
 //Student ID: A00224718
-//JAV1001
+//JAV1001 Lab 1
 
 //Convert units between different forms of measurements
 
