@@ -7,7 +7,7 @@
 import java.util.Scanner;
 public class converter {
     public static void main(String[]args) {
-        double input = 1;
+        float input = 1;
 
         //Choose the convertion
         System.out.println("Choose from the following to convert:");
@@ -27,16 +27,16 @@ public class converter {
             
             System.out.println("Enter the distance you need to convert from km to mi:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*0.62;
+            float output = input*0.62f;
             
             //Printing out the result
             System.out.println("");
@@ -49,16 +49,16 @@ public class converter {
             
             System.out.println("Enter the distance you need to convert from mi to km:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*1.61;
+            float output = input*1.61f;
             
             //Printing out the result
             System.out.println("");
@@ -71,16 +71,16 @@ public class converter {
             
             System.out.println("Enter the number you need to convert from cm to in:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*0.39;
+            float output = input*0.39f;
             
             //Printing out the result
             System.out.println("");
@@ -93,16 +93,16 @@ public class converter {
 
             System.out.println("Enter the number you need to convert from in to cm:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*2.54;
+            float output = input*2.54f;
             
             //Printing out the result
             System.out.println("");
@@ -115,16 +115,16 @@ public class converter {
 
             System.out.println("Enter the number you need to convert from kg to lb:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*2.2;
+            float output = input*2.2f;
             
             //Printing out the result
             System.out.println("");
@@ -137,16 +137,16 @@ public class converter {
 
             System.out.println("Enter the number you need to convert from lb to kg:");
             
-            //Getting the user input and converting it to a double
+            //Getting the user input and converting it to a float
             try (Scanner userIn = new Scanner(System.in)) {
-                System.out.print("\t"); input = Double.parseDouble(userIn.nextLine());
+                System.out.print("\t"); input = Float.parseFloat(userIn.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("***********");
                 System.out.println("Wrong input");
             }
             
             //Calculation
-            double output = input*0.45;
+            float output = input*0.45f;
             
             //Printing out the result
             System.out.println("");
